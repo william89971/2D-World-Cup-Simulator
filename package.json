@@ -1,0 +1,13 @@
+{
+  "name": "2d-futbol-world-cup-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5180",
+    "generate:teams": "node generate_teams.js",
+    "test": "node tests/smoke.test.mjs",
+    "test:browser": "node tests/browser-smoke.mjs",
+    "test:browser:full-match": "node tests/browser-full-match.mjs"
+  }
+}
